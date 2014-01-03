@@ -1,0 +1,18 @@
+name: yard-bond
+summary: Generates Bond.complete rules from YARD documentation.
+description:
+  Provides a rake task for generating Bond.complete rules from YARD
+  documentation. The rake task ensures the generated Bond completion rules
+  are regenerated when the YARD documentation is updated.
+
+license: MIT
+authors: Postmodern
+email: postmodern.mod3@gmail.com
+homepage: https://github.com/postmodern/yard-bond#readme
+
+dependencies:
+  yard: ~> 0.8
+
+development_dependencies:
+  rspec: ~> 2.4
+  rubygems-tasks: ~> 0.2
